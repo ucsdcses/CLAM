@@ -1,7 +1,5 @@
-- Figure out a way to log in onto physical computers
-
 - Connect to mongodb with pymongo
 
-- Initiate a complete collection of lab computer indices in a dictionary
+- Store the ssh information (username, passcode) in a file and redirect it to ssh in Popen
 
-- Check out whether users suffice 
+- Roundabout to RSA certificate key check

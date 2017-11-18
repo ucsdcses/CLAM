@@ -16,11 +16,11 @@ ENDLOC=50;
 COMMAND="users"
 #dictionary to correspond computer to login status
 STATUS=dict()
-
+labs=[220,230,240,250,260]
 #use loop to access each computer on the system
-for labIndex in [220,230,240,250,260]
-    for compIndex in xrange(STARTLOC,ENDLOC)
-        construct=USERNAME+START+labIndex+"-"+compIndex+END
+for labIndex in labs:
+    for compIndex in xrange(STARTLOC,ENDLOC):
+        construct=USERNAME+START+str(labIndex)+"-"+str(compIndex)+END
         #ssh step
         ssh=subprocess.Popen(["ssh","%s"% construct,COMMAND],
                 shell=False,
@@ -30,7 +30,8 @@ for labIndex in [220,230,240,250,260]
         response=ssh.stdout.readline()
         if response == USERNAME:
             STATUS[compIndex]=False
+            print(str(labIndex)+"-"+str(compIndex))
         else:
             STATUS[compIndex]=True
-
+        
 #put response into mongodb
