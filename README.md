@@ -31,3 +31,4 @@ This project currently consists of three teams:
 - Install MongoDB and run "mongod" from the terminal
 - Open a new terminal and run "npm run dev"
 - Go to localhost: 3000 (or whatever port your terminal gives)
+- Begin coding:  https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
