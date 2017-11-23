@@ -2,9 +2,6 @@
 
 Computer Lab Activity Monitor for UCSD
 
-> ##### Important Note For Team Members:
-As you go through the struggle of getting started working on this project, share what you learned (tutorials you needed to read, tips about file structure, etc.) by making changes to README.md on the readme-updates branch!
-
 ## About
 
 CLAM, or CLAMS, monitors student activities on UCSD CSE Basement Lab computers; it provides data on active users as well as statistics about server usage and load.
@@ -26,3 +23,11 @@ This project currently consists of three teams:
 - Front-end which renders the map of lab computers and statistics on usage.
 
 ## Notes
+
+## Getting Started With Server
+- Checkout the server branch and cd into the reactkit
+- To set up your own computer, install node + npm.
+- Run the command "npm i"; make sure you have Python 2.7 installed.
+- Install MongoDB and run "mongod" from the terminal
+- Open a new terminal and run "npm run dev"
+- Go to localhost: 3000 (or whatever port your terminal gives)
