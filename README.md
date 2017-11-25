@@ -25,10 +25,10 @@ This project currently consists of three teams:
 ## Notes
 
 ## Getting Started With Server
-- Checkout the server branch and cd into the reactkit
+- Checkout the server branch and cd into the server directory
 - To set up your own computer, install node + npm.
 - Run the command "npm i"; make sure you have Python 2.7 installed.
 - Install MongoDB and run "mongod" from the terminal
-- Open a new terminal and run "npm run dev"
+- Open a new terminal and run "npm start"
 - Go to localhost: 3000 (or whatever port your terminal gives)
 - Begin coding:  https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
