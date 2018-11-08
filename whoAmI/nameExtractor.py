@@ -1,8 +1,8 @@
 # Outputs the number of unique names dependent on who is on
-with open('names.txt') as who:
+with open('users.txt') as whoAmI:
     name = who.read().split()
-processUsernames = []
+processUsers = []
 for i in range(0, len(name), 5):
-    processUsernames.append(name[i])
-print(len(set(processUsernames)))
+    processUsers.append(name[i])
+print(len(set(processUsers)))
     

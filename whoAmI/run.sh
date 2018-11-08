@@ -1,6 +1,6 @@
 #!/bin/sh
 
-who > names.txt;
+who am i > users.txt;
 python3 nameExtractor.py;
 # Interval
 sleep 1;
