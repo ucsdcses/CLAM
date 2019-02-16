@@ -8,3 +8,10 @@ Computer Lab Activity Monitor for UCSD
   computer and lab statistics.
 - Web API which handles getting data about who is logged in from the database
 - Front-end which renders the map of lab computers and statistics on usage.
+
+## Team: 
+
+
+- Aaron Nhan (aaronnhan11@gmail.com)
+
+
