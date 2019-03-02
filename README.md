@@ -13,5 +13,5 @@ Computer Lab Activity Monitor for UCSD
 
 
 - Aaron Nhan (aaronnhan11@gmail.com)
-
+- Yada Chuengsatiansup (ychuengs@ucsd.edu)
 
